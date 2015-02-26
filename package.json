@@ -1,6 +1,6 @@
 {
   "name": "openrosa-request-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic middleware for serving OpenRosa compliant responses for express middleware",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "middleware"
   ],
   "devDependencies": {
-    "node-mocks-http": "gmaclennan/node-mocks-http",
+    "node-mocks-http": "^1.2.4",
     "tap-spec": "^2.1.2",
     "tape": "^3.0.3"
   },

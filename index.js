@@ -9,7 +9,9 @@ module.exports = function(options) {
   return function(req, res, next) {
     var err, prop;
 
-    res.set(OpenRosaHeaders);
+    for (var header in OpenRosaHeaders) {
+      res.setHeader(header, OpenRosaHeaders[header]);
+    }
 
     for (prop in OpenRosaHeaders) {
         if (req.headers[prop.toLowerCase()] !== OpenRosaHeaders[prop]) {
