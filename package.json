@@ -1,0 +1,25 @@
+{
+  "name": "openrosa-request-middleware",
+  "version": "1.0.0",
+  "description": "Basic middleware for serving OpenRosa compliant responses for express middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | node_modules/.bin/tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/digidem/openrosa-request-middleware"
+  },
+  "keywords": [
+    "openrosa",
+    "express",
+    "middleware"
+  ],
+  "devDependencies": {
+    "node-mocks-http": "gmaclennan/node-mocks-http",
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
+  },
+  "author": "Gregor MacLennan",
+  "license": "MIT"
+}
