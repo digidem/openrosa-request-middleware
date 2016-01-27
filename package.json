@@ -4,7 +4,7 @@
   "description": "Basic middleware for serving OpenRosa compliant responses for express middleware",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js | node_modules/.bin/tap-spec"
+    "test": "standard && node test.js | node_modules/.bin/tap-spec"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   ],
   "devDependencies": {
     "node-mocks-http": "^1.2.4",
+    "standard": "5.4.1",
     "tap-spec": "^2.1.2",
     "tape": "^3.0.3"
   },
