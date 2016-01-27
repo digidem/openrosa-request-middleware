@@ -12,3 +12,5 @@ app.use(OpenrosaMiddleware());
 ```
 
 Note that it exports a factory that creates the middleware when invoked.
+
+pass `options = {strict: false}` to ignore request headers
